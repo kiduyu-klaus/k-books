@@ -1,0 +1,28 @@
+{
+  "name": "kiduyu_bot",
+  "description": "Telegram bot for Novels",
+  "repository": "https://github.com/kiduyu-klaus/K-books",
+  "keywords": ["python", "telegram", "bot"],
+  "env": {
+    "TELEGRAM_ACCESS_TOKEN": {
+      "description": "Telegram Access Token",
+      "required": true
+    },
+    "GOODREADS_API_KEY": {
+      "description": "Goodreads API Key",
+      "required": true
+    },
+    "WEBHOOK_URL": {
+      "description": "Check repo description",
+      "required": true
+    },
+    "GOOGLE_DEV_API_KEY": {
+      "description": "Google Search API Key",
+      "required": true
+    },
+    "GOOGLE_CUSTOM_SEARCH_CX": {
+      "description": "Google Custom Search Code",
+      "required": true
+    }
+  }
+}
